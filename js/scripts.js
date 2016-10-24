@@ -1,5 +1,5 @@
-var numberCounter = 0;
-var suitCounter = 0;
+//var numberCounter = 0;
+//var suitCounter = 0;
 var suits = ["clubs", "hearts", "diamonds", "spades"];
 var numbers = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king", "ace"];
 
@@ -8,14 +8,14 @@ $(document).ready(function(){
   debugger;
   suits.forEach(function(suit) {
     debugger;
-    suit = suits[suitCounter];
+    //suit = suits[suitCounter];
     numbers.forEach(function(number) {
-      number = numbers[numberCounter];
-      $(".list").append("<li>" + numbers[numberCounter] + " of " + suit + "</li>");
-      numberCounter++;
+      //number = numbers[numberCounter];
+      $(".list").append("<li>" + number + " of " + suit + "</li>");
+      //numberCounter++;
     });
-  numberCounter = 0;
-  suitCounter++;
+  //numberCounter = 0;
+  //suitCounter++;
   });
 });
 
